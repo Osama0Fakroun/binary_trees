@@ -21,9 +21,9 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 	if (tree->left || tree->right)
 	{
 		l_no_node = binary_tree_nodes(tree->left) + 1;
-		r_no_node = binary_tree_nodes(tree->right) + 1;
+		r_no_node = binary_tree_nodes(tree->right);
 		total_no_node = l_no_node + r_no_node;
-		return (total_no_node - 1);
+		return (total_no_node);
 	}
 	return (total_no_node);
 	}
