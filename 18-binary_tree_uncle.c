@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_sibling - finds sibling of a node
+ * _binary_tree_sibling - finds sibling of a node
  * @node: pointer to the node whose sibling you are looking for
  * Return: pointer to sibling or NULL if not found
  */
